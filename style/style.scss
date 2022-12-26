@@ -1,0 +1,68 @@
+@import "hadr";
+
+.page {
+  font-family: 'Poppins', sans-serif;
+
+  &__body {
+    margin: 0;
+  }
+}
+
+.header {
+  background: darkcyan;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 29px 23px 80px;
+
+  background-size: cover;
+  background-position: center;
+
+  &__title {
+
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    color: #fff;
+  }
+
+  &__link-wrapper {
+    display: flex;
+    width: 66px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__menu-opener {
+    display: block;
+    width: 18px;
+    height: 12px;
+
+    &:hover {
+    }
+  }
+
+  &__call {
+    display: block;
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.logo {
+  &__image {
+    height: 38px;
+    width: 130px;
+  }
+}
